@@ -9,6 +9,6 @@ vim.opt.wrap = false
 vim.opt.backspace = { 'start', 'eol', 'indent' }
 
  vim.g.adwaita_darker = true
- vim.o.background = dark
+ --vim.o.background = dark
  vim.cmd[[set termguicolors]]
  vim.cmd[[colorscheme adwaita]]
